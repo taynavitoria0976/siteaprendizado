@@ -28,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8" />
     <title>Login</title>
     <style>
+
         body {
             font-family: Arial, sans-serif;
             background: linear-gradient(to right,rgb(41, 69, 77),rgb(15, 61, 58));
@@ -38,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             align-items: center;
         }
         .login-box {
-            background:rgb(32, 97, 107);
+            background:rgb(76, 150, 162);
             padding: 25px;
             border-radius: 10px;
             width: 320px;
@@ -49,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             width: 100%;
             padding: 12px;
             margin: 10px 0;
-            border: 1px solid #015f7a;
+            border: 1px solidrgb(106, 177, 197);
             border-radius: 6px;
             box-sizing: border-box;
             font-size: 16px;
@@ -95,3 +96,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </body>
 </html>
+.
