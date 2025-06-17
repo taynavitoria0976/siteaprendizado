@@ -97,7 +97,7 @@
         <a href="#o-que-e">O que é?</a>
         <a href="#como-funciona">Como Funciona?</a>
         <a href="#componentes">Componentes</a>
-        <a href="#exemplo">Exemplo</a>
+        <a href="exemplo.php">Exemplo</a>
         <a href="#onde-usado">Onde é Usado?</a> 
         </nav>
     </header>
