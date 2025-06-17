@@ -87,20 +87,52 @@
         .btn:hover {
             background-color: #45a049;
         }
+
+            .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1; /* Coloca atrás do conteúdo */
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        flex: 1; /* Faz o container expandir e empurrar o footer para baixo */
+    }
+
+    footer.footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    /* Outras regras mantidas iguais */
+
     </style>
 </head>
 <body>
-    
-
-    <header>
-        <nav>
-        <a href="#o-que-e">O que é?</a>
-        <a href="#como-funciona">Como Funciona?</a>
-        <a href="#componentes">Componentes</a>
-        <a href="exemplo.php">Exemplo</a>
-        <a href="#onde-usado">Onde é Usado?</a> 
-        </nav>
-    </header>
 
     <div class="container">
 
@@ -173,8 +205,15 @@ O objetivo principal do aprendizado por reforço é fazer com que o agente maxim
         </div>
     </div>
 
+<body>
+    <div class="container">
+        <!-- Todo o conteúdo -->
+    </div>
+
     <footer class="footer">
         <p>&copy; 2025 Aprendizado por Reforço - Todos os direitos reservados</p>
     </footer>
+</body>
+
 </body>
 </html>
