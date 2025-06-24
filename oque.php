@@ -45,6 +45,7 @@
         }
         .container {
             width: 80%;
+            margin-right: 2px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -94,7 +95,7 @@
 
     <header>
         <nav>
-        <a href="#o-que-e">O que é?</a>
+        <a href="#o-que">O que é?</a>
         <a href="#como-funciona">Como Funciona?</a>
         <a href="#componentes">Componentes</a>
         <a href="exemplo.php">Exemplo</a>
