@@ -96,7 +96,7 @@ body {
 </head>
 <body>
      <header>
-        <h1>oque é?</h1>
+        <h1>oque é aprendizado por reforço?</h1>
         <nav>
         <a href="oque.php">O que é?</a>
         <a href="comofunciona.php">Como Funciona?</a>

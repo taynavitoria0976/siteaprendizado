@@ -103,7 +103,6 @@ body {
         <a href="comofunciona.php">Como Funciona?</a>
         <a href="componentes.php">Componentes</a>
         <a href="exemplo.php">Exemplo</a>
-        <a href="#onde-usado">Onde é Usado?</a> 
         </nav>
     </header>
 
