@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendizado por Reforço</title>
     <style>
-        body {
+body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             color: #333;
@@ -20,17 +20,19 @@
             padding: 20px 0;
         }
 
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
         nav {
-            overflow: hidden;
-            text-align: center;
+            margin-top: 10px;
         }
 
         nav a {
-            float: left;
             display: inline-block;
             color: white;
-            text-align: center;
-            padding: 14px 20px;
+            padding: 10px 20px;
             text-decoration: none;
             font-size: 1.1rem;
         }
@@ -46,18 +48,26 @@
             padding: 20px;
         }
 
-        h2 {
-            color: rgb(76, 175, 170);
-            margin-top: 20px;
+        section {
+            margin-bottom: 40px;
         }
 
-        .componente {
-            margin-bottom: 30px;
+        h2 {
+            color: rgb(76, 175, 170);
         }
 
         p {
             line-height: 1.6;
-            margin-bottom: 10px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
 
         .footer {
@@ -69,11 +79,25 @@
             width: 100%;
             bottom: 0;
         }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
 
     <header>
+        <nav>
         <a href="oque.php">O que é?</a>
         <a href="comofunciona.php">Como Funciona?</a>
         <a href="componentes.php">Componentes</a>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendizado por Reforço</title>
     <style>
-        body {
+body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             color: #333;
@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color:rgb(76, 163, 175);
+            background-color: rgb(76, 163, 175);
             color: white;
             text-align: center;
             padding: 20px 0;
@@ -26,56 +26,60 @@
         }
 
         nav {
-            overflow: hidden;
-            text-align: center;
+            margin-top: 10px;
         }
 
         nav a {
-            float: left;
-            display: inline-block; /* Alinha os itens na horizontal */
+            display: inline-block;
             color: white;
-            text-align: center;
-            padding: 14px 20px;
+            padding: 10px 20px;
             text-decoration: none;
             font-size: 1.1rem;
         }
+
         nav a:hover {
             background-color: #ddd;
             color: black;
         }
+
         .container {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
         }
+
         section {
             margin-bottom: 40px;
         }
+
         h2 {
-            color:rgb(76, 175, 170);
+            color: rgb(76, 175, 170);
         }
+
         p {
             line-height: 1.6;
         }
+
         .image-container {
             text-align: center;
             margin: 20px 0;
         }
+
         img {
             max-width: 100%;
             height: auto;
         }
 
-        
         .footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 0,1px 0;
+            padding: 10px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
         }
+
         .btn {
             background-color: #4CAF50;
             color: white;
@@ -84,6 +88,7 @@
             border-radius: 5px;
             font-size: 1rem;
         }
+
         .btn:hover {
             background-color: #45a049;
         }
@@ -95,8 +100,8 @@
     <header>
         <nav>
         <a href="oque.php">O que é?</a>
-        <a href="comofunciona">Como Funciona?</a>
-        <a href="componentes">Componentes</a>
+        <a href="comofunciona.php">Como Funciona?</a>
+        <a href="componentes.php">Componentes</a>
         <a href="exemplo.php">Exemplo</a>
         <a href="#onde-usado">Onde é Usado?</a> 
         </nav>
