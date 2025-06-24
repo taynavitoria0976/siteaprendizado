@@ -95,8 +95,8 @@
     <header>
         <nav>
         <a href="oque.php">O que é?</a>
-        <a href="#como-funciona">Como Funciona?</a>
-        <a href="#componentes">Componentes</a>
+        <a href="comofunciona">Como Funciona?</a>
+        <a href="componentes">Componentes</a>
         <a href="exemplo.php">Exemplo</a>
         <a href="#onde-usado">Onde é Usado?</a> 
         </nav>
